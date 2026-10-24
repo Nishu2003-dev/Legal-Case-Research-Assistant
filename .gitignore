@@ -1,0 +1,29 @@
+
+cat > .gitignore << 'EOF'
+# secrets
+.env
+
+
+data
+data/pdfs
+
+.venv
+.venv/
+venv
+
+# environments and caches
+.venv/
+__pycache__/
+*.pyc
+
+# macOS and editor files
+.DS_Store
+.vscode/
+
+# data and generated files
+data/
+chroma_db/
+
+# tool folders
+.agents/
+EOF
